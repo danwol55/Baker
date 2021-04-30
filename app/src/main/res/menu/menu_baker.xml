@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.baker.MainActivity">
+    <item
+        android:id="@+id/settings_counters"
+        android:title="@string/counters"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings_weights"
+        android:title="@string/weights"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.baker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bc_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bc_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.baker.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.baker.SecondActivity"
+            android:parentActivityName="com.example.baker.MainActivity" />
+        <activity
+            android:name="com.example.baker.CountersActivity"
+            android:parentActivityName="com.example.baker.MainActivity" />
+        <activity
+            android:name="com.example.baker.WeightsActivity"
+            android:parentActivityName="com.example.baker.MainActivity" />
+    </application>
+
+</manifest>

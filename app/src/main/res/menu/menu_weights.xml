@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/save_weights"
+        android:title="@string/save_weights"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/restore_weights"
+        android:title="@string/restore"
+        app:showAsAction="never"/>
+
+</menu>
